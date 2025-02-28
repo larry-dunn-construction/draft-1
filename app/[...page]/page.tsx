@@ -2,7 +2,7 @@ import { builder } from "@builder.io/sdk";
 import { RenderBuilderContent } from "../../components/builder";
 
 // Builder Public API Key set in .env file
-builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
+builder.init("cf963b9e39ca424c9116a68a631ebb1a");
 
 interface PageProps {
   params: Promise<{
